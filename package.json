@@ -1,16 +1,16 @@
 {
   "name": "pimatic-led-light",
   "description": "Control LED lights",
-  "author": "Philip Patzer <philip.patzer@gmail.com> (https://github.com/philip1986)",
+  "author": "Takanobu Fuse <capitalfuse@gmail.com> (https://github.com/capitalfuse)",
   "main": "pimatic-led-light",
   "version": "0.9.1",
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/philip1986/pimatic-led-light.git"
+    "url": "git://github.com/capitalfuse/pimatic-led-light.git"
   },
   "bugs": {
-    "url": "https://github.com/philip1986/pimatic-led-light/issues"
+    "url": "https://github.com/capitalfuse/pimatic-led-light/issues"
   },
   "configSchema": "led-light-schema.coffee",
   "scripts": {
@@ -30,8 +30,8 @@
     "pimatic": ">=0.9.0 <1.0.0"
   },
   "engines": {
-    "node": ">0.8.x",
-    "npm": ">1.1.x"
+    "node": ">=4.4.x",
+    "npm": ">=2.15.x"
   },
   "contributors": [
     {
